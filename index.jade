@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+html(lang="ru")
+head
+	meta(charset="UTF-8")
+	title Document
+	meta(http-equiv="X-UA-Compatible", content="IE=edge")
+	//- meta(name="viewport", content="width=device-width, initial-scale=1")
+	link(rel="stylesheet", href="styles/css/main.css")
+body
+	#fullpage
+		.section
+			header.main-header
+				.container
+					.main-header__phone
+						p +7 (499)
+							span  322-39-33
+					.main-header__icons
+						a.icons__link(href="")
+							.fa.fa-vk
+						a.icons__link(href="")
+							.fa.fa-facebook
+						a.icons__link(href="")
+							.fa.fa-instagram
+					.main-header__logo.logo
+						.logo__img
+						.logo__text ekaterina
+							br
+							| kononova
+			.content
+				.container
+					.content__img.fadeInRight.wow
+						img(src="img/1.png", alt="")
+					header.content__header.content__header-border.fadeInLeft.wow
+						h1 о вас узнают
+						h2 мы умеем создавать личные бренды так,
+							br 
+							|  чтобы они работали на своих владельцев
+					section.blockquote-first.fadeInUp.wow(data-wow-delay="0.5s")
+						.blockquote Вы можете быть номером один, два, три и даже пять - главное,
+							br
+							| чтобы желаемые клиенты знали Вас в лицо, доверяли Вашим
+							br
+							| услугам и покупали у Вас
+						p Екатерина Кононова
+							br 
+							| Эксперт по построению личных брендов
+
+
+		.section
+			.container
+				.content
+					.row
+						.col-lg-4.col-lg-offset-1
+							img(src="img/2.png", alt="")
+						.col-lg-6
+							header.content__header
+								h3 Краткая биография
+							.content_blockquote
+								blockquote На протяжении шести лет я профессионально занимаюсь PR-деятельностью.
+									br
+									| За эти годы я основала несколько коммуникационных проектов (рекламно-образовательное агентство MadMedia, SMM-школу Ko. Ka. In, школу PR и маркетинга MadMedia Market Lab, подкаст о мире публичных коммуникаций MediaFresh).
+								footer.blockquote-footer
+									p Екатерина Кононова
+										br 
+										| Эксперт по построению личного бренда
+									a(href="") подробнее
+
+		- for (var i = 0; i < 6; i++)
+			.section
+				.container
+					h1 lol
+
+
+
+	script(src="js/jquery.min.js")
+	script(src="js/jquery.fullpage.min.js")
+	script(src="js/wow.min.js")
+	script(src="js/main.js")
